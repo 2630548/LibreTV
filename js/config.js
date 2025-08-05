@@ -27,6 +27,46 @@ const API_SITES = {
         name: '电影天堂资源',
         detail: 'http://caiji.dyttzyapi.com', 
     },
+		"xinlang": {
+			"api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+			"name": "新浪",
+			"detail": "https://api.xinlangapi.com",
+		},
+		"guangsu": {
+			"api": "https://api.guangsuapi.com/api.php/provide/vod",
+			"name": "光速",
+			"detail": "https://api.guangsuapi.com",
+		},
+		"1080zy": {
+			"api": "https://api.1080zyku.com/inc/api_mac10.php",
+			"name": "1080资源",
+		},
+		"hongniu": {
+			"api": "https://www.hongniuzy2.com/api.php/provide/vod",
+			"name": "红牛",
+		},
+		"sdzy": {
+			"api": "https://sdzyapi.com/api.php/provide/vod",
+			"name": "闪电",
+		},
+		"suoni": {
+			"api": "https://suoniapi.com/api.php/provide/vod",
+			"name": "索尼",
+		},
+		"taopian": {
+			"api": "https://taopianapi.com/cjapi/mc/vod/json.html",
+			"name": "淘片",
+		},
+		"hhzy": {
+			"api": "https://hhzyapi.com/api.php/provide/vod",
+			"name": "火狐",
+			"detail": "https://hhzyapi.com",
+		},
+		"huya": {
+			"api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
+			"name": "虎牙",
+			"detail":"https://www.huyaapi.com",
+		},
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意资源',
@@ -118,6 +158,64 @@ const API_SITES = {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
         adult: true
+    },
+    "maotaizy": {
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "name": "茅台资源"
+    }ckzy: {
+        api: 'https://www.ckzy1.com',
+        name: 'CK资源',
+        adult: true
+    },
+    jkun: {
+        api: 'https://jkunzyapi.com',
+        name: 'jkun资源',
+        adult: true
+    },
+    bwzy: {
+        api: 'https://api.bwzym3u8.com',
+        name: '百万资源',
+        adult: true
+    },
+    souav: {
+        api: 'https://api.souavzy.vip',
+        name: 'souav资源',
+        adult: true
+    },
+    r155: {
+        api: 'https://155api.com',
+        name: '155资源',
+        adult: true
+    },
+    lsb: {
+        api: 'https://apilsbzy1.com',
+        name: 'lsb资源',
+        adult: true
+    },
+    huangcang: {
+        api: 'https://hsckzy.vip',
+        name: '黄色仓库',
+        adult: true,
+        detail: 'https://hsckzy.vip'
+    },
+    yutu: {
+        api: 'https://yutuzy10.com',
+        name: '玉兔资源',
+        adult: true
+    },
+
+    // 下面是资源失效率高的API源，不建议使用
+    subo: {
+        api: 'https://subocaiji.com/api.php/provide/vod',
+        name: '速播资源'
+    },
+    fczy: {
+        api: 'https://api.fczy888.me/api.php/provide/vod',
+        name: '蜂巢资源'
+    },
+    ukzy: {
+        api: 'https://api.ukuapi88.com/api.php/provide/vod',
+        name: 'U酷资源'
     },
 };
 
