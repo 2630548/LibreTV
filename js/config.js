@@ -162,7 +162,8 @@ const API_SITES = {
     "maotaizy": {
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
       "name": "茅台资源"
-    }ckzy: {
+    },
+	ckzy: {
         api: 'https://www.ckzy1.com',
         name: 'CK资源',
         adult: true
